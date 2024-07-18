@@ -1,11 +1,13 @@
 import { StyledKeyboardButtonComponent } from './StyledKeyboardButtonComponent.styled';
 
-const KeyboardButtonComponent = (props) => {
-	return (
-		<StyledKeyboardButtonComponent>
-			<p>{props.keyAction}</p>
-		</StyledKeyboardButtonComponent>
-	);
+const KeyboardButtonComponent = ({ value, onClick }) => {
+    
+
+    return (
+        <StyledKeyboardButtonComponent value={value} onClick={() => onClick(value)}>
+            {value}
+        </StyledKeyboardButtonComponent>
+    );
 };
 
 export default KeyboardButtonComponent;

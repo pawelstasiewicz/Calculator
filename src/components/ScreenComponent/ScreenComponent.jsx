@@ -1,10 +1,10 @@
 import { StyledScreenComponent } from "./StyledScreenComponent.styled"
 
-const ScreenComponent = () => {
+const ScreenComponent = ({inputValue, resultValue}) => {
   return (
     <StyledScreenComponent>
-        <p>532</p>
-        <h1>x2</h1>
+        <input type="text" value={inputValue} readOnly/>
+        <input type="text" value={resultValue} readOnly/>
     </StyledScreenComponent>
   )
 }

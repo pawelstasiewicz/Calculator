@@ -8,12 +8,5 @@ export const StyledScreenComponent = styled.div`
     justify-content: end;
     align-items: end;
 
-    h1{
-        margin: 10px 20px;
-    }
-
-    p{
-        margin: 10px 20px;
-        color: #308B7B;
-    }
+    
 `
