@@ -7,7 +7,8 @@ export const StyledKeyboardButtonComponent = styled.button`
     border: none;
     border-radius: 30px;
     background-color: transparent;
-
+    
+    
     p{
         color: #f0f0f0
     }

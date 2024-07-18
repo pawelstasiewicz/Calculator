@@ -4,8 +4,10 @@ const KeyboardButtonComponent = ({ value, onClick }) => {
     
 
     return (
-        <StyledKeyboardButtonComponent value={value} onClick={() => onClick(value)}>
-            {value}
+        <StyledKeyboardButtonComponent onClick={() => onClick(value)}>
+            <p>
+			{value}	
+			</p>
         </StyledKeyboardButtonComponent>
     );
 };
