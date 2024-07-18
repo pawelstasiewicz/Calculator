@@ -5,7 +5,7 @@ export const StyledCalculatorComponent = styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #0E0E41;
+    background-color: #142f44;
     width: 300px;
     height: 450px;
     border-radius: 10px;
